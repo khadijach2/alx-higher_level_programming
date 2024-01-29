@@ -12,4 +12,3 @@ if __name__ == "__main__":
         html = response.info()
         value = html.get('X-Request-Id')
         print(value)
-
